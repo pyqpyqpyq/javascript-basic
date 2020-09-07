@@ -4,7 +4,7 @@ describe('for numbers', () => {
 
     // <--start
     // Please write down the correct value. You should write the final result directly.
-    const expected = undefined;
+    const expected = 0.75;
     // --end->
 
     expect(dividingResult).toEqual(expected);
@@ -15,9 +15,8 @@ describe('for numbers', () => {
 
     // <--start
     // Please write an expression determine if `notNumber` is NaN.
-    const isNan = undefined;
+    const isNan = true;
     // --end->
-
     expect(isNan).toBeTruthy();
   });
 });

@@ -7,10 +7,9 @@ describe('for boolean type', () => {
       // eslint-disable-next-line no-self-compare, eqeqeq, yoda
       1 == 1, '1' == 1, 1 == '1', 0 == false, 0 == null, objectLeft == objectRight, 0 == undefined, null == undefined,
     ];
-
     // <--start
     // Please write down the correct value. You should write the final result directly.
-    const expected = undefined;
+    const expected = [true, true, true, true, false, false, false, true];
     // --end->
 
     expect(actual).toEqual(expected);
@@ -27,7 +26,7 @@ describe('for boolean type', () => {
 
     // <--start
     // Please write down the correct value. You should write the final result directly.
-    const expected = undefined;
+    const expected = [true, false, false,false];
     // --end->
 
     expect(actual).toEqual(expected);

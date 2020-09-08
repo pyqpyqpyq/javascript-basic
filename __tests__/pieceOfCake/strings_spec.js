@@ -82,7 +82,7 @@ describe('for strings', () => {
     expect(splitted.join('->')).toEqual(expected);
   });
 
-  fit('should be aware to the codepoint larger than 16-bit', () => {
+  it('should be aware to the codepoint larger than 16-bit', () => {
     const emoji = '🐴👟';
 
     // <--start
